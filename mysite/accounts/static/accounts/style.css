@@ -1,0 +1,27 @@
+body{
+	background-color : lime;
+}
+h1{
+	font-size : 25pt;
+	font-family: Arial;
+	color : blue;
+}
+h2{
+	font-size : 20pt;
+	font-family: Arial;
+	color : green;
+}
+form{
+	color : black;
+	font-size : 15pt;
+	font-family : verdana;
+}
+p{
+	font-size : 15pt;
+}
+input{
+	text-decoration : blue;
+	font-size : 12pt;
+	background-color : white;
+	font-family : TimesNewRoman;
+}
