@@ -1,0 +1,53 @@
+.title{
+	font-size : 25pt;
+	font-family: Arial;
+	color : yellow;
+}
+.welcome{
+	font-size : 12pt;
+	font-family: Arial;
+	color : black;
+	position : absolute;
+	top : 0px;
+	right : 0px;
+}
+.subtitle{
+	font-size : 20pt;
+	font-family: Arial;
+	color : white;
+}
+.color{
+	color : red; 
+	font-family: Arial;
+	font-size : 20pt;
+}
+.link{
+    width: 150px;
+    height: 20px;
+    background: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration-color : lime;
+    font-weight: bold;
+	display : inline-block;   
+	margin : 10px; 
+}
+body{
+	background : url("images/home_background.jpg");
+	background-position: center;
+	height: 100%; 
+	width : 100%;
+	background-repeat: no-repeat;
+    background-size: cover;
+}
+form{
+	color : black;
+	font-size : 15pt;
+	font-family : verdana;
+}
+input{
+	text-decoration : blue;
+	font-size : 12pt;
+	background-color : white;
+	font-family : Times;}
