@@ -1,0 +1,12 @@
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'home/style.css' %}" />
+<body>
+<div class = "title">{{ title }}</div>
+<hr />
+<div class = "subtitle">{{ subtitle }}</div>
+<form method="post">
+{% csrf_token %}
+{{ form|linebreaks }}
+<input type="submit" class='btn-btn-default' value="SUBMIT" />
+</form>
+</body>
