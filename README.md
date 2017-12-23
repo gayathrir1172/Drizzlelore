@@ -1,2 +1,2 @@
 # Drizzlelore
-This is a web application using Python Django Framework.
+This is a web application using Python Django Framework to help the students to know about events so that they can join those events and gain technical exposure. The event organizers can create an event by providing the details of the event like event name, type, date, location, last date of registration, details and organizer name. The type of events can be a certification course, hackathons, paper presentations, workshops or competitions related to the field of computer science. Anyone who wishes to join the events can see the details. This application just stands as a platform for anyone who craves to gain some knowledge.
