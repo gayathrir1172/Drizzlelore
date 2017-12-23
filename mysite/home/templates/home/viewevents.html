@@ -1,0 +1,13 @@
+<link rel="stylesheet" type="text/css" href="{% static 'home/style.css' %}" />
+<body>
+<div class = "title">{{ title }}</div>
+<hr />
+<div class = "subtitle">{{ subtitle }}</div>
+</body>
+{% for i in id %}
+<div class = "color">
+	{{ i.EventName }} conducted by {{ i.EventOrganizer }}<br />
+</div>
+	takes place in {{ i.Location }} on {{ i.Date }} and last date of registration is {{ i.LastDateOfRegistration }}<br />
+	{{ i.FirstName }} {{ i.LastName }} has mentioned this event.<br />
+{% endfor %}
