@@ -1,0 +1,13 @@
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'home/style.css' %}" />
+<body>
+{% csrf_token %}
+<div class = "title">{{ title }}</div>
+<div class = "welcome">{{ subtitle }} {{ uname }}</div>
+<hr />
+<div class = "link"><a href="{% url 'login' %}">LOGIN</a></div>
+<div class = "link"><a href="{% url 'register' %}">REGISTER</a></div>
+<div class = "link"><a href="{% url 'viewevents' %}">VIEW EVENTS</a></div>
+<div class = "link"><a href="{% url 'createEvents' %}">CREATE EVENTS</a></div>
+<br /><br /><br />
+</body>
